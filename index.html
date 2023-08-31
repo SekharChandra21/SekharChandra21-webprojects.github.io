@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        .main-container{
+            background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470');
+            background-size: cover;
+            height: 100vh;
+        }
+        .name{
+            display: flex;
+        }
+        .number{
+            display: flex;
+        }
+        .container{
+            padding: 20px;
+            margin-top: 30px;
+            /* margin-top: 25px; */
+            margin-left: 30px;
+        }
+        #heading{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 24px;
+            margin-top:35px ;
+            margin-left: 15px;
+            font-weight: bold;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+        }
+        #regno{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 24px;
+            margin-top:35px ;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        label{
+             font-size: 28px;
+             margin-top: 25px;
+             font-weight: bold;
+             text-decoration: underline;
+             margin-right: 20px;
+             font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            font-size: 20px;
+            margin-left: 30px;
+            margin-top: 7px;
+        }
+        img{
+            height: 170px;
+            width: 150px;
+            border: 2px solid black;
+            margin-right: 70px;
+        }
+    
+        .card-heading{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-decoration: underline;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        button{
+            width: 100%;
+            max-width: 300px;
+            height: 35px;
+            border-radius: 9px;
+            border-width: 0px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        .buttons{
+            text-align: center;
+        }
+        button:hover{
+            background-color: rgb(228, 27, 27);
+            color: black;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="d-flex flex-row"> 
+            <div class="container">
+                <div class="name">
+                    <label for="heading">Name: </label>
+                    <h1 id="heading">Aripaka Chandra Sekhar</h1>
+                </div>
+                 <div class="number">
+                    <label for="regno">Registration Number: </label>
+                    <h1 id="regno">21MIC7143</h1>
+                 </div>
+            </div>
+            <div>
+                <p>My Profile</p>
+                <img src="https://res.cloudinary.com/dhmu50efw/image/upload/v1693493815/myimage_k8ighd.jpg" alt="">
+            </div>
+        </div>
+        <hr><hr>
+        <h1 class="card-heading">My Web Projects</h1>
+        <div  class="buttons">
+            <a href="https://sekharchandra21.github.io/SekharChandra21-gird-layout.github.io/" target="_blank"><button>Grid Layout</button></a>
+            <br>
+            <a href="https://sekharchandra21.github.io/Navgation.github.io/" target="_blank"><button>Navigation</button></a>
+            <br>
+            <a href="https://sekharchandra21.github.io/" target="_blank"><button>Calculator</button></a>
+            <br>
+            <a href="https://sekharchandra21.github.io/SekharChandra21-analogwatch.github.io/" target="_blank"><button>Clock</button></a>
+            <br>
+            <a href="https://sekharchandra21.github.io/slider.github.io/" target="_blank"><button>SLider</button></a>
+            <br>
+
+        </div>
+    </div>
+</body>
+</html>
